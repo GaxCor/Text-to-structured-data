@@ -1,0 +1,13 @@
+le mando la info de la factura que necesito
+
+datos:
+- proveedor: Juan Pérez López (persona física)
+- fecha: feb 5 2026  
+- concepto: mantenimiento de equipo de computo
+- monto total con iva: $6,380
+- rfc del proveedor: PELJ850312QW4
+
+por favor procesar lo antes posible
+
+atte
+Mariana (contabilidad)

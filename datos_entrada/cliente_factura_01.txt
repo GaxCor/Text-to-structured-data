@@ -1,0 +1,21 @@
+FACTURA
+
+Emisor: Soluciones Integrales del Bajío S.A. de C.V.
+RFC: SIB201105GH8
+Dirección: Av. Industria 456, León, Gto.
+
+Receptor: Planeta Fiscal
+RFC: PFI180322KL9
+
+Fecha de emisión: 2026-01-20
+
+Concepto: Servicio de consultoría fiscal - Enero 2026
+Subtotal: $18,500.00
+IVA (16%): $2,960.00
+Total: $21,460.00
+
+Método de pago: Transferencia bancaria
+Forma de pago: Pago en una sola exhibición
+Uso CFDI: Gastos en general
+
+Folio fiscal: AAB4C2D1-E5F6-7890-ABCD-1234567890EF
