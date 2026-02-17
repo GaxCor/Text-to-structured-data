@@ -1,0 +1,168 @@
+{
+  "total_procesados": 16,
+  "total_errores": 0,
+  "fecha_procesamiento": "2026-02-17T01:09:39.497699",
+  "resultados": [
+    {
+      "archivo_origen": "cliente_factura_01.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "Planeta Fiscal",
+        "monto": 21460,
+        "fecha": "2026-01-20",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:24.182609"
+    },
+    {
+      "archivo_origen": "cliente_factura_02.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "Mariana",
+        "monto": 6380,
+        "fecha": "2026-02-05",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:25.541619"
+    },
+    {
+      "archivo_origen": "cliente_factura_03.xlsx",
+      "datos_extraidos": {
+        "nombre_cliente": "Consultoría Ramírez y Asociados",
+        "monto": 90480,
+        "fecha": "2026-02-10",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:26.841744"
+    },
+    {
+      "archivo_origen": "cliente_queja_01.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "Carlos Enrique Domínguez",
+        "monto": null,
+        "fecha": "2026-02-03",
+        "tipo_solicitud": "Queja"
+      },
+      "procesado_en": "2026-02-17T01:09:27.593742"
+    },
+    {
+      "archivo_origen": "cliente_queja_02.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "laura martinez",
+        "monto": 8500,
+        "fecha": "2026-01-10",
+        "tipo_solicitud": "Queja"
+      },
+      "procesado_en": "2026-02-17T01:09:28.730750"
+    },
+    {
+      "archivo_origen": "cliente_queja_03.pdf",
+      "datos_extraidos": {
+        "nombre_cliente": "Diana Morales Espinoza",
+        "monto": 12750,
+        "fecha": "2026-02-08",
+        "tipo_solicitud": "Queja"
+      },
+      "procesado_en": "2026-02-17T01:09:29.944677"
+    },
+    {
+      "archivo_origen": "cliente_venta_01.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "Roberto Medina",
+        "monto": 45000,
+        "fecha": "2026-03-15",
+        "tipo_solicitud": "Venta"
+      },
+      "procesado_en": "2026-02-17T01:09:30.856460"
+    },
+    {
+      "archivo_origen": "cliente_venta_02.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "Patricia Sánchez",
+        "monto": 120000,
+        "fecha": "2026-02-28",
+        "tipo_solicitud": "Venta"
+      },
+      "procesado_en": "2026-02-17T01:09:31.887458"
+    },
+    {
+      "archivo_origen": "cliente_venta_03.txt",
+      "datos_extraidos": {
+        "nombre_cliente": "TecnoPartes de México S.A. de C.V.",
+        "monto": 323000,
+        "fecha": "2026-02-12",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:32.855458"
+    },
+    {
+      "archivo_origen": "cliente_venta_04.docx",
+      "datos_extraidos": {
+        "nombre_cliente": "Grupo Industrial Monterrey S.A. de C.V.",
+        "monto": 285000,
+        "fecha": "2026-03-20",
+        "tipo_solicitud": "Venta"
+      },
+      "procesado_en": "2026-02-17T01:09:33.871187"
+    },
+    {
+      "archivo_origen": "pdf_ejemplo_1.pdf",
+      "datos_extraidos": {
+        "nombre_cliente": "Luis Fernández",
+        "monto": 15000,
+        "fecha": "2026-02-14",
+        "tipo_solicitud": "Venta"
+      },
+      "procesado_en": "2026-02-17T01:09:34.574801"
+    },
+    {
+      "archivo_origen": "pdf_ejemplo_2.pdf",
+      "datos_extraidos": {
+        "nombre_cliente": "Claudia Méndez",
+        "monto": 5600,
+        "fecha": "2026-02-10",
+        "tipo_solicitud": "Queja"
+      },
+      "procesado_en": "2026-02-17T01:09:35.751369"
+    },
+    {
+      "archivo_origen": "pdf_ejemplo_3.pdf",
+      "datos_extraidos": {
+        "nombre_cliente": "TechNova Solutions",
+        "monto": 145000,
+        "fecha": "2026-02-05",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:37.072982"
+    },
+    {
+      "archivo_origen": "word_ejemplo_1.docx",
+      "datos_extraidos": {
+        "nombre_cliente": "Roberto Salinas",
+        "monto": 23500,
+        "fecha": "2026-02-18",
+        "tipo_solicitud": "Venta"
+      },
+      "procesado_en": "2026-02-17T01:09:37.777982"
+    },
+    {
+      "archivo_origen": "word_ejemplo_2.docx",
+      "datos_extraidos": {
+        "nombre_cliente": "Ana Torres",
+        "monto": 12780,
+        "fecha": "2026-02-03",
+        "tipo_solicitud": "Queja"
+      },
+      "procesado_en": "2026-02-17T01:09:38.563697"
+    },
+    {
+      "archivo_origen": "word_ejemplo_3.docx",
+      "datos_extraidos": {
+        "nombre_cliente": "Constructora Delta SA",
+        "monto": 89300,
+        "fecha": "2026-02-01",
+        "tipo_solicitud": "Factura"
+      },
+      "procesado_en": "2026-02-17T01:09:39.496697"
+    }
+  ],
+  "errores": []
+}
