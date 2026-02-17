@@ -1,10 +1,10 @@
-# 🌐 PlanetaFiscal — Texto Desordenado → JSON Estructurado
+# PlanetaFiscal
 
-> Sistema inteligente que convierte archivos de texto caótico (correos, facturas, quejas) en datos JSON estructurados listos para base de datos, utilizando la API de OpenAI.
+Script en Python que lee archivos con texto desordenado (correos, facturas, quejas) y los convierte en JSON estructurado listo para base de datos. Usa la API de OpenAI para interpretar el contenido.
 
 ---
 
-## 📂 Formatos Soportados
+## Formatos soportados
 
 | Formato | Librería |
 |---------|----------|
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 ```bash
 pip install -r requirements.txt
@@ -29,7 +29,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 
 ---
 
-## 🚀 Uso
+## Uso
 
 1. Colocar los archivos a procesar en la carpeta `datos_entrada/`.
 2. Ejecutar el script:
@@ -44,9 +44,9 @@ python procesador.py
 
 ---
 
-## 📄 Estructura de Salida JSON
+## Salida JSON
 
-Cada archivo genera un objeto JSON con la siguiente estructura:
+Cada archivo procesado genera un JSON con esta estructura:
 
 ```json
 {
@@ -57,7 +57,7 @@ Cada archivo genera un objeto JSON con la siguiente estructura:
 }
 ```
 
-### Reglas de los campos
+### Campos
 
 | Campo | Tipo | Descripción |
 |-------|------|-------------|
@@ -68,17 +68,17 @@ Cada archivo genera un objeto JSON con la siguiente estructura:
 
 ---
 
-## 🔄 Validación y Reintentos
+## Validación
 
-- Se valida que la respuesta sea **JSON válido** con todos los campos requeridos.
-- Si la IA devuelve texto inválido, el script **reintenta automáticamente** hasta **3 veces**.
-- Si falla después de los 3 intentos, se lanza una excepción y se registra el error.
+- Se verifica que la respuesta sea JSON válido con todos los campos requeridos.
+- Si la respuesta viene mal formateada, se reintenta hasta 3 veces.
+- Si falla después de los reintentos, se registra el error y continúa con el siguiente archivo.
 
 ---
 
-## 🗃️ Inserción en SQL
+## Inserción en SQL
 
-La salida JSON se puede insertar directamente en una tabla relacional con queries parametrizados:
+Los datos extraídos se pueden insertar en una tabla SQL con queries parametrizados:
 
 ```python
 cursor.execute(
@@ -89,7 +89,7 @@ cursor.execute(
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del proyecto
 
 ```
 PlanetaFiscal/
